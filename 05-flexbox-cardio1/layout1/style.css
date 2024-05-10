@@ -18,5 +18,35 @@ nav {
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
+body {
+	max-width: 700px;
+}
 
+header,
+footer {
+	height: 100px;
+	padding: 15px;
+}
 
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 500px;
+	
+}
+
+.clanek {
+	flex-grow: 2;
+	padding: 15px;
+}
+
+.sidebar {
+	flex-grow: 1;
+	padding: 15px;
+}
+
+.menu {
+	flex-grow: 1;
+	padding: 15px;
+}

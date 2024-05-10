@@ -19,4 +19,30 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.kontejner {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+}
 
+.box {
+	display: flex;
+}
+
+nav {
+	flex-grow: 1;
+}
+
+article {
+	flex-grow: 3;
+	height: 600px;
+}
+
+aside {
+	flex-grow: 1;
+}
+
+header,
+footer {
+	height: 200px;
+}

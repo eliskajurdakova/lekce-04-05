@@ -1,4 +1,4 @@
-/* nejsme vcerejsi, pouzivame moderni box model */
+ /* nejsme vcerejsi, pouzivame moderni box model */
 *, :after, :before { box-sizing: border-box; }
 
 .ctverecek {
@@ -21,3 +21,10 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+    display: flex;
+}
+
+.prvni {
+    flex-grow: 1;
+}

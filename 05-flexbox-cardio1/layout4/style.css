@@ -20,3 +20,42 @@ nav {
 /* -------------------------------------------- */
 
 
+.kontejner {
+	display: flex;
+	margin: 0;
+}
+
+.potomek {
+	display: flex;
+	flex: 1;
+}
+
+.maly {
+	flex-direction: column;
+	flex: 5;
+}
+.box {
+	flex-grow: 1;
+}
+
+article {
+	flex-grow: 6;
+	height: 600px;
+	padding: 15px;
+}
+
+aside {
+	flex-grow: 1;
+	padding: 15px;
+}
+
+nav {
+	flex-basis: 15%;
+	padding: 15px;
+}
+
+header,
+footer {
+	height: 200px;
+	padding: 15px;
+}

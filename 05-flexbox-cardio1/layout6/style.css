@@ -20,3 +20,25 @@ nav {
 /* -------------------------------------------- */
 
 
+.kontejner {
+	display: flex;
+	height: 600px;
+	flex-wrap: wrap;
+}
+
+header,
+footer {
+	flex-basis: 100%;
+	padding: 15px;
+}
+
+nav,
+aside {
+	flex-grow: 1;
+	padding: 15px;
+}
+article {
+	flex-grow: 3;
+	padding: 15px;
+}
+
